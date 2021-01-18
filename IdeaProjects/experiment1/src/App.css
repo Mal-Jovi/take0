@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+/* base styles */
+* {
+  margin: 0;
+  font-family: 'Italiana', serif;
+}
+
+.textContainer {
+  font-size:20px;
+}
+
+.titleContainer {
+  font-size: 70px;
+}
+
+.app {
+  text-align: center;
+  background: rgb(16,132,181);
+  background: linear-gradient(165deg, rgba(16,132,181,1) 17%, rgba(16,185,218,1) 41%, rgba(119,228,224,1) 58%, rgba(255,246,196,1) 88%);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
