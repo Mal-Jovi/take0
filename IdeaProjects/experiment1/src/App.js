@@ -9,8 +9,8 @@ function App() {
   return (
   <Router>
       <div className="app">
-          <Navbar/>
-          <div className="container">
+      <Navbar/>
+          <div className="page">
                   <Switch>
                       <Route exact path="/"> <Play/></Route>
                       <Route exact path="/about"><About/></Route>

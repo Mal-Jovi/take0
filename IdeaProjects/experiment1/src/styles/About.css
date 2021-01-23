@@ -1,9 +1,58 @@
-.title{
+.content-container{
+  margin-bottom: 1em;
+  width: 90%;
+ }
+
+.section-container{
+  border-style: solid;
+  border-color: red;
+  color:white;
+  min-height:700px;
+
+}
+
+.section-container-dark{
+  padding-left: 45%;
+  border-style: solid;
+  border-color: green;
+  color:black;
+  list-style-type: circle;
   text-align: left;
-  font-size: 70px;
-  margin-left:450px;
-  margin-top:230px;
-  position:static;
+}
+
+.section-title{
+  text-align: inherit;
+  font-size: 4em;
+  margin-top: 3em;
+}
+
+.section-text{
+  border-style: solid;
+  border-color: cyan;
+  width: auto;
+  height:auto;
+  color:inherit;
+  padding-top:1em;
+  width: 55%;
+  text-align: inherit;
+  font-size: 1.4em;
+  hyphens: auto;
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+.section-text-dark{
+  border-style: solid;
+  border-color: pink;
+  width: auto;
+  height:auto;
+  color:inherit;
+  padding-top:1em;
+  text-align: inherit;
+  font-size: 1.4em;
+  hyphens: auto;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .introText{

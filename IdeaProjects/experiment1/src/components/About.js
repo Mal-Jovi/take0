@@ -1,19 +1,14 @@
 import React from 'react';
-import './Pages.css';
+import "../styles/About.css";
 import {FaLinkedinIn, FaGithub, FaSpotify} from 'react-icons/fa';
 
 function About() {
-  const darkStyle = {
-    color: "black",
-    marginLeft: "100px",
-    listStyleType: "circle",
-    width:"750px",
-
-  };
   return (
-  <div>
-    <div className="title">hi, i'm clara ☕</div>
-    <div className="introText">
+  <div className="content-container">
+
+  <div className="section-container">
+    <div className="section-title">hi, i'm clara ☕</div>
+    <div className="section-text">
         zoomer student & coffee chugger. i'm obsessed with honeydew-flavoured candy and collecting a rainbow of Lindt chocolate wrappers
         <br></br>
         <br></br>
@@ -24,11 +19,12 @@ function About() {
             my mission is to create wonderful useful tools that draw out opportunities for people around the globe
         </div>
         <br></br><br></br>
-        <br></br><br></br>
-        <br></br><br></br>
     </div>
-    <div className="title" style={darkStyle}>vision 🚀</div>
-    <div className="introText" style={darkStyle}>
+  </div>
+
+  <div className="section-container-dark">
+    <div className="section-title" >vision 🚀</div>
+      <div className="section-text-dark">
         how would i describe myself?
         <br></br>
         <li>dynamic</li>
@@ -42,38 +38,31 @@ function About() {
         <div className="blue-highlight">
          my expertise includes business intelligence and full stack software development, but i also freelance in art & design
         </div>
+        <br></br><br></br>
+      </div>
     </div>
 
-        <br></br><br></br>
-        <br></br><br></br>
-        <br></br><br></br>
-        <br></br><br></br>
-    <div className="title">let's chat 📝</div>
-    <div className="introText">
-        i'm always on the lookout for a new book recommendation, an underground indie band, or just to bounce around some ideas! let's get connected below
-        <br></br><br></br>
-        <div className="orange-highlight">
-            exploring three.js has been so much fun, and i'd love to collaborate on the next UI/UX project together
+    <div className="section-container">
+        <div className="section-title">let's chat 📝</div>
+        <div className="section-text">
+            i'm always on the lookout for a new book recommendation, an underground indie band, or just to bounce around some ideas! let's get connected below
+            <br></br><br></br>
+            <div className="orange-highlight">
+                exploring three.js has been so much fun, and i'd love to collaborate on the next UI/UX project together
+            </div>
+            <br></br><br></br>
+            <a className="icon" href="https://www.linkedin.com/in/clarajchu/"><FaLinkedinIn size="3em"/></a>
+            <a className="icon" href="https://github.com/armydillo0/take0/tree/main/IdeaProjects/experiment1"><FaGithub size="3em"/></a>
+            <a className="icon" href="https://open.spotify.com/user/22zmnxff74oahigojvp5ky45a"><FaSpotify size="3em"/></a>
+            <br></br><br></br>
         </div>
-        <br></br><br></br>
-        <a className="icon" href="https://www.linkedin.com/in/clarajchu/"><FaLinkedinIn size="3em"/></a>
-        <a className="icon" href="https://github.com/armydillo0/take0/tree/main/IdeaProjects/experiment1"><FaGithub size="3em"/></a>
-        <a className="icon" href="https://open.spotify.com/user/22zmnxff74oahigojvp5ky45a"><FaSpotify size="3em"/></a>
-     </div>
+    </div>
 
+    <div className="section-container">
         <br></br><br></br>
-        <br></br><br></br>
-        <br></br><br></br>
-        <br></br><br></br>
-        <br></br><br></br>
-        <br></br><br></br>
-        <br></br><br></br>
-    <div className="title">thank you ✨</div>
-    <div className="introText">for visiting and sharing a moment of your time</div>
-        <br></br><br></br>
-        <br></br><br></br>
-        <br></br><br></br>
-        <br></br><br></br>
+        <div className="section-title">thank you ✨</div>
+        <div className="section-text">for visiting and sharing a moment of your time</div>
+    </div>
 
   </div>
   );
