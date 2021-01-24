@@ -8,7 +8,6 @@
   border-color: red;
   color:white;
   min-height:700px;
-
 }
 
 .section-container-dark{
@@ -18,6 +17,7 @@
   color:black;
   list-style-type: circle;
   text-align: left;
+  min-height:700px;
 }
 
 .section-title{
@@ -55,15 +55,6 @@
   overflow-wrap: break-word;
 }
 
-.introText{
-  padding-top: 20px;
-  width: 600px;
-  text-align: left;
-  font-size: 25px;
-  margin-left:450px;
-  white-space: wrap;
-}
-
 .pink-highlight {
   background: #ea80ed; /* Default color, all browsers */
   -webkit-border-radius: 5px;
@@ -88,15 +79,35 @@
   padding-left: 5px;
 }
 
-a {
-  margin-right: 70px;
-  list-style-type: none;
-  text-decoration: none;
-  justify-content: center;
-  color: white;
+.icon{
+  width:100%;
+  display:flex;
+  justify-content: space-around;
 }
 
-.HomePage{
-background: rgb(255,254,238);
-background: linear-gradient(163deg, rgba(255,254,238,1) 8%, rgba(255,183,183,1) 43%, rgba(255,138,171,1) 69%, rgba(219,103,187,1) 87%, rgba(189,64,154,1) 97%);
+.icon a{
+  color: pink;
+}
+
+.play-container{
+  border-style: solid;
+  border-color: white;
+  color:white;
+  min-height:700px;
+  text-align:center;
+  padding-top: 3em;
+}
+
+.play-game{
+  height:550px;
+  background: rgba(0,0,0,0.5);
+}
+
+.play-text{
+  border-style: solid;
+  border-color: orange;
+  color:black;
+  padding-top:1em;
+  text-align: inherit;
+  font-size: 1.2em;
 }
