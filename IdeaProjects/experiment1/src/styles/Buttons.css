@@ -1,0 +1,9 @@
+.icon{
+  width:100%;
+  display:flex;
+  justify-content: space-around;
+}
+
+.icon a{
+  color: #ff534c;
+}

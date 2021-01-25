@@ -1,24 +1,23 @@
 import React from 'react';
 import "../styles/About.css";
-import {FaLinkedinIn, FaGithub, FaPinterest} from 'react-icons/fa';
 import { IoDownloadOutline } from "react-icons/io5";
+import Buttons from '../components/Buttons';
 
 function About() {
+
   return (
 <div className="content-container">
 
     <div className="section-container" id="about">
-        <div className="section-title">hi, i'm clara ☕</div>
+        <div className="section-title">hello, world! ☕</div>
         <div className="section-combine">
             <div className="section-text">
-                zoomer student & coffee chugger. i'm obsessed with honeydew-flavoured candy and collecting a rainbow of Lindt chocolate wrappers
+                <p>i'm clara chu, zoomer student & artist. also a honeydew bubble tea connoisseur and Lindt chocolate wrapper collector</p>
                 <br></br>
-                <br></br>
-                virtual globaltrotter currently residing between Toronto and Montreal. i study cs and economics at McGill university, expecting graduation summer 2021
-                <br></br>
+                <p>residing in Montreal, i study cs & economics at McGill university, expecting graduation this summer 2021. i'm looking for full-time opportunities in software development & related fields in design</p>
                 <br></br>
                 <div className="pink-highlight">
-                    my mission is to create wonderful useful tools that draw out opportunities for people around the globe
+                    my mission is to create wonderful tools that pave out new roadmaps for folks around the globe
                 </div>
                 <br></br><br></br>
             </div>
@@ -31,19 +30,19 @@ function About() {
         <div className="section-combine">
         <div className="section-title-dark">vision 🚀</div>
             <div className="section-text-dark">
-                dynamic, team builder, reliable
-                <br></br><br></br>
-                i'm fascinated by the intersection between economics, technology, and art.
-                three industries that are constantly morphing and continuously converging.
-                i believe the time we have is precious, and that the best use of it is by uplifting our communities.. one line of code at a time!
-                <br></br><br></br>
+                <p>i'm fascinated by the intersection in economics, technology, and art. three industries that are continuously morphing & converging:</p>
+                <br></br>
+                <p> ie. big data analytics ➵ e-commerce & fintech infrastructure ➵ social networks & media consumption ➵ AI agents in economic simulations</p>
+                <br></br>
+                <p>i want to contribute to this exciting age and help uplift communities.. one line of code at a time! download my resume on the left</p>
+                <br></br>
                 <div className="blue-highlight">
-                    my expertise includes business intelligence and full stack software development, but i also freelance in art & design
+                    my expertise includes business intelligence and full-stack software development. i also freelance in art & design
                 </div>
                 <br></br><br></br>
             </div>
             <div className="resume">
-                <a href="https://drive.google.com/file/d/1jrO52kN-ihz59b82jjJZuOkwe2MOU44b/view?usp=sharing" target="_blank" rel="noreferrer">
+                <a href="https://drive.google.com/file/d/1dWFf5xSIO_awcSmFrF2sg02cm_m7-fmW/view?usp=sharing" target="_blank" rel="noreferrer">
                     <IoDownloadOutline size="2.5em"/>
                 </a>
             </div>
@@ -54,23 +53,13 @@ function About() {
     <div className="section-container" id="contact">
         <div className="section-title">let's chat 📝</div>
         <div className="section-text">
-            i'm always on the lookout for a new book recommendation, an underground indie band, or just to bounce around some ideas! let's get connected below
-            <br></br><br></br>
+            <p>i'm always on the lookout for a new book recommendation, an underground indie band, or just to bounce around some ideas! if you have a professional opportunity i'd love to get connected!</p>
+            <br></br>
             <div className="orange-highlight">
-                exploring three.js has been so much fun, and i'd love to collaborate on the next UI/UX project together
+                i've recently tried three.js & it has been immensely fun! i'm exploring the development of modern visualization in the digital age
             </div>
             <br></br><br></br>
-            <div className="icon">
-                <a href="https://www.linkedin.com/in/clarajchu/" target="_blank" rel="noreferrer">
-                    <FaLinkedinIn size="3em"/>
-                </a>
-                <a href="https://github.com/armydillo0/take0/tree/main/IdeaProjects/experiment1" target="_blank" rel="noreferrer">
-                    <FaGithub size="3em"/>
-                </a>
-                <a href="https://www.pinterest.ca/clarajchu" target="_blank" rel="noreferrer">
-                    <FaPinterest size="3em"/>
-                </a>
-            </div>
+            <Buttons/>
             <br></br><br></br>
         </div>
     </div>
